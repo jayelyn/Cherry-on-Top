@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cherry on Top</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="sitewrap">
+
+    <div class="menu">
+      <div class="menu-logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo" class="menu-logo-image" />
+          <span class="menu-logo-text">Cherry on Top</span>
+        </a>
+      </div>
+      <div class="menu-list">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="cakes.html">CAKES</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="order.html">ORDER ONLINE</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h2>Order Online</h2>
+      <p>For all pickups, you can collect your cake from our store located at 338 Pitt Street, Sydney NSW 2000</p>
+      <div class="order-form-wrap">
+        <form class="order-form" action="index.html" method="post">
+          <h3>Your Detail</h3>
+          <input type="text" name="firstname" placeholder="First Name" required>
+          <input type="text" name="lastname" placeholder="Last Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="phone" placeholder="Phone" required>
+          <hr>
+          <h3>Pick-up Detail</h3>
+          <p>All cakes require a minimum of 2 days notice.</p>
+          <label for="date">Date</label>
+          <label for="date">Time</label>
+          <input type="date" name="date" required>
+          <input type="time" name="time" required>
+          <label for="product">Product</label>
+          <label for="qty">Quantity</label>
+          <select required>
+            <option>Rainbow Covered Cake $135</option>
+            <option>Blue Icing-covered 2-tier Cake $65</option>
+            <option>Unicorn Cake $120</option>
+          </select>
+          <input type="number" name="qty" value="1" required>
+          <input type="submit" name="submit" value="Continue to Payment >">
+          <br>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      © Cherry on Top
+    </div>
+
+  </div>
+
+</body>
+
+</html>

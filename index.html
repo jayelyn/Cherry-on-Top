@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cherry on Top</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="sitewrap">
+
+    <div class="menu">
+      <div class="menu-logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo" class="menu-logo-image" />
+          <span class="menu-logo-text">Cherry on Top</span>
+        </a>
+      </div>
+      <div class="menu-list">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="cakes.html">CAKES</a></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li><a href="order.html">ORDER ONLINE</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-top">
+      <img src="img/main.jpg" alt="main" class="container-top-image">
+      <div class="container-top-text">
+        Enjoy a piece of sweetness @ <span class="container-top-title">Cherry on Top</span>
+      </div>
+    </div>
+
+    <div class="container-middle">
+      <div class="container-middle-left">
+        <h2>We are located at: </h2>
+        <p>338 Pitt Street, Sydney NSW 2000</p>
+        <h2>Opening Hours</h2>
+        <p>07:00 - 17:00 Everyday</p>
+        <h2>Contact Info</h2>
+        <p>🕿 (02) 0000 0000</p>
+        <p>🖂 <a href="mailto:enquiries@cherryontop.com.au">enquiries@cherryontop.com.au</a></p>
+      </div>
+      <div class="container-middle-right">
+        <img src="img/main-bottom.jpg" alt="main-bottom" class="container-middle-right-image">
+      </div>
+    </div>
+
+    <div class="footer">
+      © Cherry on Top <span id="current-date"></span>
+    </div>
+
+    <script type="text/javascript">
+      var d = new Date();
+      var currentDate = d.getDate()+"."+(d.getMonth()+1)+"."+d.getFullYear();
+      document.getElementById("current-date").innerHTML = currentDate;
+    </script>
+
+  </div>
+
+</body>
+
+</html>

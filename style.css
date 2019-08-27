@@ -1,0 +1,244 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+
+/* CSS RESET */
+
+body { margin: 0; padding: 0; }
+li { list-style: none; }
+a { text-decoration: none; color: inherit; }
+
+
+/* INDEX.HTML */
+
+body { background-color: #dddddd; }
+
+.sitewrap {
+  /* SIZE & POSITION */
+  margin: 0 auto;
+  width: 1200px;
+  /* TEXT */
+  font-family: 'Livvic', sans-serif;
+  /* DESIGN */
+  background-color: white;
+}
+
+.menu {
+  /* SIZE & POSITION */
+  width: 1140px;
+  padding: 25px 30px;
+  height: 50px;
+  position: fixed;
+  /* DESIGN */
+  background-color: white;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.menu-logo {
+  float: left;
+  height: 60px;
+}
+
+.menu-logo-image { width: 35px; height: 35px; }
+
+.menu-logo-text {
+  margin-left: 5px;
+  font-size: 18pt;
+  letter-spacing: 1px;
+}
+
+.menu-list { float: right; }
+
+.menu-list ul {
+  margin: 5px 0;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.menu-list ul li {
+  float: left;
+  margin: 20px;
+  font-size: 10.5pt;
+}
+
+.menu-list ul li:hover { color: #999999; }
+
+.container-top-image {
+  width: 100%;
+  margin-top: 101px;
+  height: auto;
+}
+
+.container-top-text {
+  /* SIZE & POSITION */
+  margin-top: -5px;
+  width: 100%;
+  height: 60px;
+
+  /* FONT & DESIGN */
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+}
+
+.container-top-title { color: #ff98b9; }
+
+.container-middle {
+  padding: 80px 80px;
+  width: 1040px;
+}
+
+.container-middle:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-middle-left {
+  float: left;
+  width: 50%;
+}
+
+.container-middle-right {
+  float: left;
+  width: 50%;
+}
+
+.container-middle-right-image {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #cfcfcf;
+  text-align: center;
+  line-height: 50px;
+}
+
+#current-date {
+  font-size: 9pt;
+  color: #888888;
+}
+
+
+/* SUB-PAGES TEMPLATE */
+
+.sub {
+  padding: 140px 80px 50px 80px;
+  width: 1040px;
+}
+
+
+/* CAKES.HTML*/
+
+.cakes-wrap { text-align: center; }
+
+.cakes-container {
+  display: inline-block;
+  width: 250px;
+  height: 510px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border: 1px solid #dedede;
+}
+
+.cakes-container img {
+  width: 250px;
+  height: 350px;
+}
+
+.cakes-name { margin: 5px 0; }
+
+
+/* GALLERY */
+
+.gallery-image {
+  width: 510px;
+  height: 765px;
+}
+
+
+/* ORDER.HTML */
+
+.order-form input[type="text"], input[type="email"], input[type="date"], input[type="time"], input[type="number"] {
+  font-family: inherit;
+  width: 480px;
+  margin: 3px 5px;
+  padding: 15px 10px;
+}
+
+.order-form select {
+  font-family: inherit;
+  width: 504px;
+  margin: 3px 5px;
+  padding: 15px 10px;
+}
+
+.order-form label {
+  display: inline-block;
+  width: 480px;
+  margin: 3px 15px;
+  font-size: 9pt;
+}
+
+.order-form input[type="submit"] {
+  font-family: inherit;
+  width: 180px;
+  height: 50px;
+  margin: 15px 5px 0 5px;
+  background-color: #ededed;
+  border: 1px solid #cfcfcf;
+}
+
+.order-form hr {
+  border: 1px dashed #cfcfcf;
+  margin: 20px 0;
+}
+
+
+/* ABOUT.HTML */
+
+.about-image {
+  width: 1040px;
+  margin: 10px 0;
+}
+
+.about-form-wrap { margin-top: 40px; }
+
+
+/* CONTACT.HTML */
+
+.contact-address {
+  padding: 20px 15px;
+  width: 170px;
+  background-color: #333333;
+  color: white;
+}
+
+.contact-mail { color: #ff3198; }
+
+.contact-form-wrap { margin-top: 40px; }
+
+.contact-form input[type="text"], input[type="email"] {
+  font-family: inherit;
+  width: 480px;
+  margin: 3px 5px;
+  padding: 15px 10px;
+}
+
+.contact-form textarea {
+  font-family: inherit;
+  width: 1000px;
+  margin: 3px 5px;
+  padding: 15px 10px;
+}
+
+.contact-form input[type="submit"] {
+  font-family: inherit;
+  width: 120px;
+  height: 50px;
+  margin: 3px 5px;
+  background-color: #ededed;
+  border: 1px solid #cfcfcf;
+}
