@@ -44,17 +44,18 @@
           <h3>Pick-up Detail</h3>
           <p>All cakes require a minimum of 2 days notice.</p>
           <label for="date">Date</label>
-          <label for="date">Time</label>
-          <input type="date" name="date" required>
-          <input type="time" name="time" required>
+          <label for="time">Time</label>
+          <input type="date" name="date" id="date" required>
+          <input type="time" name="time" id="time" required>
           <label for="product">Product</label>
           <label for="qty">Quantity</label>
-          <select required>
-            <option>Rainbow Covered Cake $135</option>
-            <option>Blue Icing-covered 2-tier Cake $65</option>
-            <option>Unicorn Cake $120</option>
+          <select id="product" required>
+            <option label="Choose your cake" disabled></option>
+            <option value="rainbow">Rainbow Covered Cake $135</option>
+            <option value="blue2tier">Blue Icing-covered 2-tier Cake $65</option>
+            <option value="unicorn">Unicorn Cake $120</option>
           </select>
-          <input type="number" name="qty" value="1" required>
+          <input type="number" name="qty" id="qty" value="1" required>
           <input type="submit" name="submit" value="Continue to Payment >">
           <br>
         </form>
